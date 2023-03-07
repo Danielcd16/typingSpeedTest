@@ -237,7 +237,7 @@ export const WordsPerMinute = () => {
             Play Again
           </button>
         ) : (
-          <button className="playBtn" onClick={() => setTime(5)}>
+          <button className="playBtn" onClick={() => setTime(60)}>
             Play
           </button>
         )}
