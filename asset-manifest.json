@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/.github.io/typingSpeedTest/static/css/main.1ea70d86.css",
-    "main.js": "/.github.io/typingSpeedTest/static/js/main.8c57da14.js",
-    "index.html": "/.github.io/typingSpeedTest/index.html",
-    "main.1ea70d86.css.map": "/.github.io/typingSpeedTest/static/css/main.1ea70d86.css.map",
-    "main.8c57da14.js.map": "/.github.io/typingSpeedTest/static/js/main.8c57da14.js.map"
+    "main.css": "/typingSpeedTest/static/css/main.1ea70d86.css",
+    "main.js": "/typingSpeedTest/static/js/main.8c57da14.js",
+    "index.html": "/typingSpeedTest/index.html",
+    "main.1ea70d86.css.map": "/typingSpeedTest/static/css/main.1ea70d86.css.map",
+    "main.8c57da14.js.map": "/typingSpeedTest/static/js/main.8c57da14.js.map"
   },
   "entrypoints": [
     "static/css/main.1ea70d86.css",
