@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/.github.io/typingSpeedTest/static/css/main.1ea70d86.css",
+    "main.js": "/.github.io/typingSpeedTest/static/js/main.8c57da14.js",
+    "index.html": "/.github.io/typingSpeedTest/index.html",
+    "main.1ea70d86.css.map": "/.github.io/typingSpeedTest/static/css/main.1ea70d86.css.map",
+    "main.8c57da14.js.map": "/.github.io/typingSpeedTest/static/js/main.8c57da14.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1ea70d86.css",
+    "static/js/main.8c57da14.js"
+  ]
+}
