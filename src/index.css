@@ -1,0 +1,237 @@
+body {
+  margin: auto;
+  place-items: center;
+  max-width: 800px;
+  min-height: 100vh;
+  background-color: #ffffff;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+input {
+  font-size: 32px;
+  width: 600px;
+  height: 50px;
+}
+
+button {
+  font-size: 32px;
+}
+
+.container {
+  text-align: center;
+  padding: 10px;
+  background-color: #f6f6f7;
+}
+
+.title {
+  margin-top: 35px;
+  margin-bottom: 5px;
+  font-style: normal;
+  line-height: 24px;
+  font-family: Colfax, sans-serif;
+  font-size: 1rem;
+  letter-spacing: 0.1rem;
+  font-weight: 400;
+  color: #4a4a56;
+}
+
+.title2 {
+  margin-bottom: 40px;
+  font-style: normal;
+  color: #1b1b20;
+  font-family: Colfax, sans-serif;
+  font-size: 2.26277684rem;
+  font-weight: 700;
+  line-height: 61px;
+  letter-spacing: -0.03em;
+}
+
+.title3 {
+  margin-top: 35px;
+  margin-bottom: 35px;
+  font-style: normal;
+  line-height: 24px;
+  font-family: Colfax, sans-serif;
+  font-size: 2rem;
+  letter-spacing: 0.1rem;
+  font-weight: 400;
+  color: #4a4a56;
+}
+
+.word {
+  margin-bottom: 20px;
+  font-family: Merriweather, serif;
+  font-style: normal;
+  font-size: 48px;
+  font-weight: 100;
+  font-size: 52px;
+  color: #1b1b20;
+  line-height: 80px;
+  -webkit-user-select: none;
+  -webkit-touch-callout: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.box-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin: 0px 60px 20px 60px;
+}
+
+.timeBox {
+  background-color: white;
+  width: 7rem;
+  height: 7rem;
+  font-family: Colfax, sans-serif;
+  border: 4px solid rgb(0, 0, 0);
+  border-radius: 4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 50px;
+  color: #1b1b20;
+  font-size: 41px;
+}
+
+.box {
+  background-color: white;
+  width: 6rem;
+  font-family: Colfax, sans-serif;
+  height: 6rem;
+  border-radius: 1.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 50px;
+  color: #1b1b20;
+  font-size: 41px;
+}
+
+.label {
+  font-family: Colfax, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 21px;
+  margin-top: 10px;
+  font-size: 14px;
+  color: #1b1b20;
+}
+
+.submitBtn {
+  border: none;
+  background: none;
+  font-family: Colfax, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 21px;
+  font-size: 14px;
+  color: #1b1b20;
+}
+
+.bufferInput {
+  font-family: Merriweather, serif;
+  font-style: normal;
+  font-size: 48px;
+  color: #1b1b20;
+  line-height: 80px;
+  margin-bottom: 15px;
+  height: 60px;
+}
+
+.form {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 180px;
+  width: 100%;
+}
+
+.playBtn {
+  margin-top: 10px;
+  width: 100%;
+  height: 45px;
+  border: none;
+  outline: none;
+  color: #fff;
+  background: #111;
+  cursor: pointer;
+  position: relative;
+  z-index: 0;
+  border-radius: 10px;
+}
+
+.playBtn:before {
+  content: "";
+  background: linear-gradient(
+    45deg,
+    #ff0000,
+    #ff7300,
+    #fffb00,
+    #48ff00,
+    #00ffd5,
+    #002bff,
+    #7a00ff,
+    #ff00c8,
+    #ff0000
+  );
+  position: absolute;
+  top: -2px;
+  left: -2px;
+  background-size: 400%;
+  z-index: -1;
+  filter: blur(5px);
+  width: calc(100% + 4px);
+  height: calc(100% + 4px);
+  animation: glowing 20s linear infinite;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+  border-radius: 10px;
+}
+
+.playBtn:active {
+  color: #000;
+}
+
+.playBtn:active:after {
+  background: transparent;
+}
+
+.playBtn:hover:before {
+  opacity: 1;
+}
+
+.playBtn:after {
+  z-index: -1;
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: #111;
+  left: 0;
+  top: 0;
+  border-radius: 10px;
+}
+
+@keyframes glowing {
+  0% {
+    background-position: 0 0;
+  }
+  50% {
+    background-position: 400% 0;
+  }
+  100% {
+    background-position: 0 0;
+  }
+}
